@@ -3,8 +3,8 @@
 
 # 准备工作(preparation)
 download redis mysql nginx;  
-修改nginx.config 
-\'''stream{
+修改nginx.config  
+stream{
     upstream MyServer{
         server 127.0.0.1:6000 weight=1 max_fails=3 fail_timeout=30s;
         server 127.0.0.1:6002 weight=1 max_fails=3 fail_timeout=30s;
@@ -17,7 +17,7 @@ download redis mysql nginx;
         tcp_nodelay on;
 
     }
-}\'''
+}
 # 编译方式(how to compile):
 cd build  
 rm -rf *  
