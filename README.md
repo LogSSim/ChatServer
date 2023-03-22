@@ -4,7 +4,7 @@
 # 准备工作(preparation)
 download redis mysql nginx;  
 修改nginx.config  
-'''  
+```
 stream
 {
     upstream MyServer{
@@ -20,7 +20,7 @@ stream
 
     }
 }  
-'''  
+``` 
 # 编译方式(how to compile):
 cd build  
 rm -rf *  
