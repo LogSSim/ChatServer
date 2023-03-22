@@ -19,7 +19,7 @@ stream
         tcp_nodelay on;
 
     }
-}
+}  
 '''  
 # 编译方式(how to compile):
 cd build  
