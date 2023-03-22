@@ -1,0 +1,3 @@
+/home/znfs/project/multi_server_chat/cmakelist_test/build/CMakeFiles/rebuild_cache.dir
+/home/znfs/project/multi_server_chat/cmakelist_test/build/CMakeFiles/edit_cache.dir
+/home/znfs/project/multi_server_chat/cmakelist_test/build/CMakeFiles/server.dir
